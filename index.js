@@ -13,7 +13,7 @@ let guide = {
   p: "print the cursor path",
   e: "exit the application",
 };
-
+//defining the initial position of cursor
 let x = 0;
 let y = 0;
 //keypress event
@@ -25,19 +25,19 @@ process.stdin.on("keypress", (str, key) => {
         x++;
       }
       break;
+
     case "l":
       if (x > 0) {
         term.left(1);
         x--;
       }
-
       break;
+
     case "u":
       if (y > 0) {
         term.up(1);
         y--;
       }
-
       break;
 
     case "d":

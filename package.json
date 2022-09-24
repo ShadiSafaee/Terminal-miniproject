@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Shadi",
   "license": "ISC",
   "dependencies": {
     "terminal-kit": "^3.0.0"
